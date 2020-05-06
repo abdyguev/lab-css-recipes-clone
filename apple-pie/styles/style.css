@@ -1,0 +1,101 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.main {
+    background-image: url("../images/apple-pie.jpg");
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    background-position: 0;
+    background-size: cover;
+    padding-top: 250px;
+    position: relative;
+    margin: 0px;
+    height: 700px;
+    
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 2px solid grey;
+    padding-bottom: 25px;   
+    margin: 50px auto;
+}
+
+.about p {
+    font-size: 40px;
+}
+
+.about img {
+    height: 105px;
+    margin: 0 auto;
+    align-items: center;        
+}
+
+.ingredients {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 4px solid grey;
+    padding-bottom: 40px;   
+    margin: 50px auto;
+
+}
+
+.ingredients ul {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+.ingredients h3 {
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.ingredients img {
+    height: 130px;
+    margin: 0 auto;
+    align-items: center;
+        
+}
+
+.directions {
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;   
+    margin: 50px auto;
+    
+}
+
+.directions h3 {
+    font-size: 40px;
+    font-weight: normal;
+
+}
+
+.directions ul {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+
+
+p {
+    text-align: left;
+    font-size: 25px  
+}
